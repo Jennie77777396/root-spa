@@ -21,8 +21,8 @@
         "react-dom/client": "https://react.microfrontends.app/deps/npm:react-dom@19.0.0/dev.client.js",
         "scheduler": "https://react.microfrontends.app/deps/npm:scheduler@0.25.0/dev.index.js",
         "process": "https://react.microfrontends.app/deps/npm:@jspm/core@2.1.0/nodelibs/browser/process.js",
-        "scheduler": "https://react.microfrontends.app/deps/npm:scheduler@0.25.0/dev.index.js",
-        "tslib": "https://react.microfrontends.app/deps/npm:tslib@2.8.1/tslib.es6.mjs"
+        "tslib": "https://react.microfrontends.app/deps/npm:tslib@2.8.1/tslib.es6.mjs",
+        "@react-mf/styleguide": "https://react.microfrontends.app/styleguide/13468845990/react-mf-styleguide.js"
       }
     }
   </script>
@@ -36,7 +36,9 @@
     {
       "imports": {
         "@goodleap/root-config": "//localhost:9000/goodleap-root-config.js",
-        "@goodleap/payment-form": "http://localhost:9001/goodleap-payment-form.js"
+        "@goodleap/payment-form": "http://localhost:9001/goodleap-payment-form.js",
+        "@goodleap/dashboard":"http://localhost:9002/goodleap-dashboard.js",
+        "@goodleap/nav-bar":"http://localhost:9003/goodleap-nav-bar.js"
       }
     }
   </script>
@@ -53,6 +55,7 @@
   <script>
     window.importMapInjector.initPromise.then(() => {
       import('@goodleap/root-config');
+      import('@react-mf/styleguide');
     });
   </script>
   <import-map-overrides-full show-when-local-storage="devtools" dev-libs></import-map-overrides-full>
