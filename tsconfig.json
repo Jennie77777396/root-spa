@@ -1,6 +1,6 @@
 {
   "extends": "ts-config-single-spa",
-  "files": ["src/goodleap-root-config.ts"],
+  "files": ["src/goodluckjt-root-config.ts"],
   "compilerOptions": {
     "declarationDir": "dist"
   },

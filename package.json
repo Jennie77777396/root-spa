@@ -1,5 +1,5 @@
 {
-  "name": "@goodleap/root-config",
+  "name": "@goodluckjt/root-config",
   "scripts": {
     "start": "webpack serve --port 9000 --env isLocal",
     "lint": "eslint src --ext js,ts,tsx",
@@ -36,7 +36,7 @@
     "@babel/preset-typescript": "^7.23.3",
     "eslint-config-ts-important-stuff": "^1.1.0",
     "typescript": "^4.3.5",
-    "webpack-config-single-spa-ts": "^8.0.0",
+    "webpack-config-single-spa-ts": "^6.0.5",
     "ts-config-single-spa": "^3.0.0"
   },
   "dependencies": {
@@ -46,5 +46,5 @@
     "@types/webpack-env": "^1.16.2",
     "single-spa-layout": "^1.6.0"
   },
-  "types": "dist/goodleap-root-config.d.ts"
+  "types": "dist/goodluckjt-root-config.d.ts"
 }

@@ -35,10 +35,10 @@
   <script type="injector-importmap">
     {
       "imports": {
-        "@goodleap/root-config": "//localhost:9000/goodleap-root-config.js",
-        "@goodleap/payment-form": "http://localhost:9001/goodleap-payment-form.js",
-        "@goodleap/dashboard":"http://localhost:9002/goodleap-dashboard.js",
-        "@goodleap/nav-bar":"http://localhost:9003/goodleap-nav-bar.js"
+        "@goodluckjt/root-config": "//localhost:9000/goodluckjt-root-config.js",
+        "@goodluckjt/payment-form": "http://localhost:9001/goodluckjt-payment-form.js",
+        "@goodluckjt/dashboard":"http://localhost:9003/goodluckjt-dashboard.js",
+        "@goodluckjt/nav-bar":"http://localhost:9005/goodluckjt-nav-bar.js"
       }
     }
   </script>
@@ -54,7 +54,7 @@
   <main></main>
   <script>
     window.importMapInjector.initPromise.then(() => {
-      import('@goodleap/root-config');
+      import('@goodluckjt/root-config');
       import('@react-mf/styleguide');
     });
   </script>
